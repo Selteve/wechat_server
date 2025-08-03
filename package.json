@@ -1,0 +1,44 @@
+{
+  "name": "wechat_server",
+  "version": "1.0.0",
+  "description": "一个用于微信公众平台开发的TypeScript服务器库，提供微信服务器验证、Access Token管理和JS-SDK Ticket管理功能",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./express": {
+      "types": "./dist/adapters/express.d.ts",
+      "import": "./dist/adapters/express.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": ["wechat", "weixin", "typescript", "express", "access-token", "js-sdk"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/wechat_server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/wechat_server/issues"
+  },
+  "homepage": "https://github.com/yourusername/wechat_server#readme",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/sha1": "^1.1.5",
+    "sha1": "^1.1.1",
+    "express": "^5.1.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "dependencies": {}
+}
