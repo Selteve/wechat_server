@@ -1,5 +1,5 @@
 {
-  "name": "wechat_server",
+  "name": "@uukii/wechat_server",
   "version": "1.0.0",
   "description": "一个用于微信公众平台开发的TypeScript服务器库，提供微信服务器验证、Access Token管理和JS-SDK Ticket管理功能",
   "type": "module",
