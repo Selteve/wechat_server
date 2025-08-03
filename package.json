@@ -24,12 +24,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/wechat_server.git"
+    "url": "https://github.com/Selteve/wechat_server.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/wechat_server/issues"
+    "url": "https://github.com/Selteve/wechat_server/issues"
   },
-  "homepage": "https://github.com/yourusername/wechat_server#readme",
+  "homepage": "https://github.com/Selteve/wechat_server#readme",
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
     "@types/express": "^5.0.3",
